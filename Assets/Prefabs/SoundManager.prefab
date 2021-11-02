@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &51113483451072344
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 51113483451072345}
+  - component: {fileID: 51113483451072350}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &51113483451072345
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 51113483451072344}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &51113483451072350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 51113483451072344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49e754ab54d7a3041977fc7d27b87f4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Music
+    clip: {fileID: 8300000, guid: 2501eed2edad3184a9a9a50cadb71bab, type: 3}
+    volume: 0.376
+    loop: 1
+    source: {fileID: 0}
+  - name: tone1
+    clip: {fileID: 8300000, guid: fb2cb792c811a9f44b5a946202de418d, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: twotone1
+    clip: {fileID: 8300000, guid: fca4daa5a09f75341859c3f4cef45568, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: twotone2
+    clip: {fileID: 8300000, guid: 690ff0140d2138a45af7564cdb0823b5, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: laser1
+    clip: {fileID: 8300000, guid: 7968a140c0dcad24bb175740cd03e426, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: laser2
+    clip: {fileID: 8300000, guid: e8873c4f460086740b226ec2d242ce4a, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: laser5
+    clip: {fileID: 8300000, guid: 8f9316786f3bc7449ae75652bd0872fd, type: 3}
+    volume: 0.632
+    loop: 0
+    source: {fileID: 0}
+  - name: hithurt3
+    clip: {fileID: 8300000, guid: bcab554709b04e4438c47ea67de9d4e5, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: explosion4
+    clip: {fileID: 8300000, guid: 7c48ab76ec0fc6c47af9eca7562b79e2, type: 3}
+    volume: 0.593
+    loop: 0
+    source: {fileID: 0}
+  - name: explosion1
+    clip: {fileID: 8300000, guid: c7b6488b21b5587499749b0bb7bc27b9, type: 3}
+    volume: 0.913
+    loop: 0
+    source: {fileID: 0}
+  - name: powerup4
+    clip: {fileID: 8300000, guid: 9fce68d846f16a3498705652a30ccbbf, type: 3}
+    volume: 0.913
+    loop: 0
+    source: {fileID: 0}
