@@ -25,6 +25,7 @@ ScriptedImporter:
     streamingMipmaps: 1
     streamingMipmapsPriority: 0
     vTOnly: 0
+    ignoreMasterTextureLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -79,7 +80,6 @@ ScriptedImporter:
       width: 0
       height: 0
     spriteID: 
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -91,19 +91,18 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: BG
+  - name: Player_UI
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
+      x: 3852
       y: 4
-      width: 3840
-      height: 2160
-    spriteID: dabeb4eb621c13247a7c0e3f14e51362
-    internalID: 0
+      width: 233
+      height: 245
+    spriteID: 048aff14e27144940b12c2d8abcd9d6f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -112,7 +111,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 4, y: 4}
+    uvTransform: {x: 2324, y: -1536}
   - name: 'CREDITS: iXALE Games'
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -125,7 +124,6 @@ ScriptedImporter:
       width: 752
       height: 52
     spriteID: 6f3092b071835e749a3304d0ec00d7fe
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -147,7 +145,6 @@ ScriptedImporter:
       width: 231
       height: 235
     spriteID: ad4061f72c0d73249b4ec6343e901c05
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -169,7 +166,6 @@ ScriptedImporter:
       width: 309
       height: 123
     spriteID: 1125ea4ec00663a478f5a4f415d6c2c8
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -191,7 +187,6 @@ ScriptedImporter:
       width: 411
       height: 104
     spriteID: fb3ce13d0c660344783c27a137a7a514
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -213,7 +208,6 @@ ScriptedImporter:
       width: 2018
       height: 207
     spriteID: af91473e48535a34a9b77231f9b73a16
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -223,19 +217,18 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -973, y: 636}
-  - name: Player_UI
+  - name: BG
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 3852
+      x: 4
       y: 4
-      width: 233
-      height: 245
-    spriteID: 048aff14e27144940b12c2d8abcd9d6f
-    internalID: 0
+      width: 3840
+      height: 2160
+    spriteID: dabeb4eb621c13247a7c0e3f14e51362
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -244,7 +237,20 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 2324, y: -1536}
+    uvTransform: {x: 4, y: 4}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
   platformSettings:
   - name: DefaultTexturePlatform
     overridden: 0
@@ -291,23 +297,91 @@ ScriptedImporter:
     allowsAlphaSplitting: 0
     androidETC2FallbackOverride: 0
   mosaicLayers: 1
+  characterMode: 1
   documentPivot: {x: 0, y: 0}
   documentAlignment: 7
   importHiddenLayers: 0
-  importedTextureWidth: 2048
-  importedTextureHeight: 2048
-  documentSize: {x: 3840, y: 2160}
+  layerMappingOption: 2
+  generatePhysicsShape: 0
   paperDollMode: 0
   keepDupilcateSpriteName: 0
+  skeletonAssetReferenceID: 
   spriteCategoryList:
     categories: []
-  textureActualWidth: 4096
-  textureActualHeight: 4096
   spritePackingTag: 
   resliceFromLayer: 0
-  characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
+  - name: Group 1
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 56
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: enemy_3
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 00000000000000000000000000000000
+    layerID: 55
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: enemy_3
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 00000000000000000000000000000000
+    layerID: 52
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: enemy_2
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 00000000000000000000000000000000
+    layerID: 54
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: enemy_2
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 00000000000000000000000000000000
+    layerID: 51
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: enemy_1
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 00000000000000000000000000000000
+    layerID: 53
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: enemy_1
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 00000000000000000000000000000000
+    layerID: 50
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
   - name: Player_UI
     spriteName: Player_UI
     isGroup: 0
@@ -315,48 +389,149 @@ ScriptedImporter:
     spriteID: 048aff14e27144940b12c2d8abcd9d6f
     layerID: 65
     mosaicPosition: {x: 3852, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: UI
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 00000000000000000000000000000000
+    spriteID: 75214326aa866b34cb7e20728456f21f
     layerID: 48
     mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
   - name: 'CREDITS: iXALE Games'
     spriteName: 'CREDITS: iXALE Games'
     isGroup: 0
-    parentIndex: 1
+    parentIndex: 8
     spriteID: 6f3092b071835e749a3304d0ec00d7fe
     layerID: 63
     mosaicPosition: {x: 2449, y: 2172}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: enemy_1
     spriteName: enemy_1
     isGroup: 0
-    parentIndex: 1
+    parentIndex: 8
     spriteID: ad4061f72c0d73249b4ec6343e901c05
     layerID: 61
     mosaicPosition: {x: 3852, y: 257}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: QUIT
     spriteName: QUIT
     isGroup: 0
-    parentIndex: 1
+    parentIndex: 8
     spriteID: 1125ea4ec00663a478f5a4f415d6c2c8
     layerID: 47
     mosaicPosition: {x: 4, y: 2387}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: START
     spriteName: START
     isGroup: 0
-    parentIndex: 1
+    parentIndex: 8
     spriteID: fb3ce13d0c660344783c27a137a7a514
     layerID: 46
     mosaicPosition: {x: 2030, y: 2172}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: CHA   S    RENA
     spriteName: CHA   S    RENA
     isGroup: 0
-    parentIndex: 1
+    parentIndex: 8
     spriteID: af91473e48535a34a9b77231f9b73a16
     layerID: 45
     mosaicPosition: {x: 4, y: 2172}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: character_sprites
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 38
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: enemy_3
+    spriteName: 
+    isGroup: 0
+    parentIndex: 14
+    spriteID: 00000000000000000000000000000000
+    layerID: 35
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: enemy_2
+    spriteName: 
+    isGroup: 0
+    parentIndex: 14
+    spriteID: 00000000000000000000000000000000
+    layerID: 34
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: enemy_1
+    spriteName: 
+    isGroup: 0
+    parentIndex: 14
+    spriteID: 00000000000000000000000000000000
+    layerID: 30
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Player_sprite
+    spriteName: 
+    isGroup: 1
+    parentIndex: 14
+    spriteID: 00000000000000000000000000000000
+    layerID: 67
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: player_turret
+    spriteName: 
+    isGroup: 0
+    parentIndex: 18
+    spriteID: 00000000000000000000000000000000
+    layerID: 37
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: pLayer
+    spriteName: 
+    isGroup: 0
+    parentIndex: 18
+    spriteID: 00000000000000000000000000000000
+    layerID: 29
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: rec1
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 17
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
   - name: BG
     spriteName: BG
     isGroup: 0
@@ -364,13 +539,14 @@ ScriptedImporter:
     spriteID: dabeb4eb621c13247a7c0e3f14e51362
     layerID: 8
     mosaicPosition: {x: 4, y: 4}
-  characterData:
-    bones: []
-    parts: []
-    dimension: {x: 0, y: 0}
-    characterGroups: []
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
   generateGOHierarchy: 0
   textureAssetName: Concept Texture
   prefabAssetName: Concept Prefab
   spriteLibAssetName: Concept Sprite Lib
+  skeletonAssetName: 
   secondarySpriteTextures: []
